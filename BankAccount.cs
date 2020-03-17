@@ -39,7 +39,6 @@ namespace learn_dotnet_classes_objects
             this.Number = accountNumberSeed.ToString();
             accountNumberSeed++;
             this.Owner = name;
-            this.Balance = initialBalance;
         }
     }
 }
